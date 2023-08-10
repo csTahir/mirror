@@ -15,8 +15,8 @@ async function main() {
     video.srcObject = signal;
     video.play();
     video.onloadeddata = () => {
-      handleResize();
-      window.addEventListener("resize", handleResize);
+      //   handleResize();
+      //   window.addEventListener("resize", handleResize);
       updateCanvas();
     };
   } catch (error) {
