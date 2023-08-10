@@ -21,4 +21,5 @@ async function main() {
 
 function updateCanvas() {
   context.drawImage(video, 0, 0);
+  window.requestAnimationFrame(updateCanvas);
 }
