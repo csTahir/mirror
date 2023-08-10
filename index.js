@@ -27,11 +27,11 @@ async function main() {
 function updateCanvas() {
   context.drawImage(video, 0, 0);
   window.requestAnimationFrame(
-    updateCanvas,
-    size.x,
-    size.y,
-    size.width,
-    size.height
+    updateCanvas
+    // size.x,
+    // size.y,
+    // size.width,
+    // size.height
   );
 }
 
